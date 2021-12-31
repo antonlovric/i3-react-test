@@ -10,6 +10,7 @@ export default function Home(props) {
   return (
     <>
       <Head>
+        <title>Foodies</title>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link
           rel='preconnect'

@@ -15,6 +15,7 @@ export default function BeCrueltyFree(props) {
   return (
     <>
       <Head>
+        <title>Foodies</title>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link
           rel='preconnect'
