@@ -91,7 +91,7 @@ export default function GenerateRecipeSection(props) {
             <h4>Ingredients:</h4>
             <ul>
               {props.recipe.extendedIngredients.map((ingredient) => {
-                return <li>{ingredient.original}</li>;
+                return <li key={ingredient.original}>{ingredient.original}</li>;
               })}
             </ul>
           </div>

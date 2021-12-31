@@ -18,9 +18,31 @@
     font-size: var(--textSize);
     opacity: 1;
   }
-  border-left: 1px solid black;
+}
 
-  //   width: fit-content;
+.hamburger {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 2;
+  position: fixed;
+  background-color: var(--darkGreen);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  flex-direction: column;
+}
+
+.hamburgerLine {
+  width: 80%;
+  height: 0.2rem;
+  border-radius: 100px;
+  background-color: black;
+  transition: 0.2s all ease-in-out;
 }
 
 .showNavigationScreen {
@@ -41,16 +63,4 @@
   to {
     transform: translateX(0%);
   }
-}
-
-.hamburger {
-  height: 4rem;
-  width: 4rem;
-  border-radius: 50%;
-  position: absolute;
-  right: 2rem;
-  top: 2rem;
-  background-color: black;
-  z-index: 2;
-  position: fixed;
 }

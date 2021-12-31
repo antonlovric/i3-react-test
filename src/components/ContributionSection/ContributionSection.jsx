@@ -31,7 +31,7 @@ export default function ContributionSection(props) {
           ].join(' ')}
         >
           {props.children.map((child) => {
-            return <div>{child}</div>;
+            return <div key={child}>{child}</div>;
           })}
         </div>
       </section>

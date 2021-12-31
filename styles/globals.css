@@ -42,7 +42,7 @@ p{
 li{
   margin: .7rem;
   line-height: 1.5;
-  font-size: clamp(1rem, 1.7vw, 1.5rem);
+  font-size: clamp(1.3rem, 1.7vw, 1.5rem);
 }
 
 h4{
@@ -54,7 +54,7 @@ h4{
   text-align: center;
   color: var(--darkGreen);
   font-size: clamp(3rem, 3vw, 6rem);
-  width: 30rem;
+  max-width: 30rem;
   margin: auto;
 }
 .highlight{

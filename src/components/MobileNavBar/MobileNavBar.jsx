@@ -8,8 +8,8 @@ export default function MobileNavBar(props) {
         className={classes.hamburger}
         onClick={() => setNavBarShown(!navBarShown)}
       >
-        <div className='hamburgerLine'></div>
-        <div className='hamburgerLine'></div>
+        <div className={classes.hamburgerLine}></div>
+        <div className={classes.hamburgerLine}></div>
       </div>
       <div
         className={[

@@ -16,7 +16,11 @@ export default function BeCrueltyFree(props) {
     <>
       <Head>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin='reffered'
+        />
         <link
           href='https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&family=Red+Hat+Text:wght@300;400&display=swap'
           rel='stylesheet'
