@@ -1,0 +1,38 @@
+.carousel {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  //   height: 50rem;
+  overflow: hidden;
+  // padding-bottom: 6rem;
+}
+
+.carouselSlide {
+  display: flex;
+  height: 100%;
+  --transform-x: 0px;
+  --transition: 0.5s all ease-in;
+  transform: translateX(var(--transform-x));
+  transition: var(--transition);
+  gap: 20px;
+  //   justify-content: center;
+  align-items: center;
+}
+
+.carouselNavigation {
+  // position: absolute;
+  margin-top: 2rem;
+  bottom: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+  button {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 35em) {
+}

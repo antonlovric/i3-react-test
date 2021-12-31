@@ -1,0 +1,24 @@
+.about {
+  padding: 2rem 6rem;
+  margin-top: 5rem;
+  background-color: var(--veryLightGreen);
+  scroll-behavior: smooth;
+  h2 {
+    color: var(--darkGreen);
+    font-size: clamp(2.5rem, 3.7vw, 7rem);
+    font-family: var(--headingFont);
+    text-decoration: underline;
+  }
+  p {
+    text-align: justify;
+    font-size: var(--textSize);
+    line-height: 1.5;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .about {
+    padding: 2rem 2rem;
+  }
+}

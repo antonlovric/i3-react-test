@@ -1,0 +1,35 @@
+.image {
+  border-radius: 49%;
+  object-fit: cover;
+}
+
+.carouselItem {
+  flex-shrink: 0;
+  width: calc(100% / 3);
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: var(--veryLightGreen);
+  // filter: blur(4px);
+  // box-shadow: 0px 1px 0px 4px rgba(0, 0, 0, 0.25);
+
+  // padding: 6rem 1rem;
+  //   box-shadow: 0px 20px 13px 4px var(--darkGreen);
+  flex-direction: column;
+
+  .recipeTitle {
+    text-align: center;
+    width: 80%;
+    color: var(--purple);
+    font-size: clamp(1rem, 1.2vw, 2rem);
+  }
+}
+
+@media screen and (max-width: 35em) {
+  .carouselItem {
+    width: 100%;
+  }
+}

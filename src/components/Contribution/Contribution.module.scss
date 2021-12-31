@@ -1,0 +1,13 @@
+.contributionContainer {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+
+  p {
+    width: 15ch;
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    font-family: var(--textFont);
+  }
+}

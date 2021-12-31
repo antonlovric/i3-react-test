@@ -1,0 +1,15 @@
+.navLink {
+  display: flex;
+  justify-content: center;
+  min-width: 7rem;
+  padding: 1rem;
+  font-size: clamp(1rem, 1.2vw, 2.5rem);
+  transition: 0.2s ease-in-out;
+  text-decoration: underline;
+  // border-radius: 50000rem;
+  // // border: 1.5px solid black;
+}
+
+.navLink:hover {
+  color: var(--purple);
+}

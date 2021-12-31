@@ -1,0 +1,39 @@
+.contributionContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0;
+}
+
+.contributionSection {
+  padding: 1rem;
+  background-color: var(--veryLightGreen);
+}
+
+.contributionHeading {
+  text-align: center;
+  font-size: clamp(1.8rem, 2.5vw, 6rem);
+  color: var(--darkGreen);
+  transition: 0.2s all ease-in-out;
+  opacity: 0;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.visible {
+  animation: forwards 0.4s showElement ease-in-out;
+}
+
+@keyframes showElement {
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .contributionContainer {
+    flex-direction: column;
+  }
+}

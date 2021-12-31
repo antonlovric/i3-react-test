@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
 }
 
 a {
@@ -13,4 +14,49 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --veryLightGreen: #E1FFE1;
+  --lightGreen: #75fc96;
+  --darkGreen: #5dbe30;
+  --purple: #485b9c;
+  --headingFont: font-family: 'Red Hat Display', sans-serif;
+  --textFont: font-family: 'Red Hat Text', sans-serif;
+  --headingSize: clamp(2.5rem, 3.7vw, 7rem);
+  --textSize: clamp(1.5rem, 2vw, 3rem);
+}
+
+h2{
+  color: var(--darkGreen);
+    font-size: clamp(2.5rem, 3.7vw, 7rem);
+    font-family: var(--headingFont);
+    text-decoration: underline;
+}
+
+p{
+  font-size: var(--textSize);
+  line-height: 1.5;
+}
+
+li{
+  margin: .7rem;
+  line-height: 1.5;
+  font-size: clamp(1rem, 1.7vw, 1.5rem);
+}
+
+h4{
+  font-size: clamp(2rem, 2vw, 4rem);
+  color: var(--darkGreen);
+  text-decoration: underline;
+}
+.mainHeading{
+  text-align: center;
+  color: var(--darkGreen);
+  font-size: clamp(3rem, 3vw, 6rem);
+  width: 30rem;
+  margin: auto;
+}
+.highlight{
+  color: var(--purple);
 }
